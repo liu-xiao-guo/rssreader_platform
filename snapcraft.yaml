@@ -1,0 +1,37 @@
+name: rssreader-app
+version: "1.0"
+summary: A snap app from Ubuntu phone app
+description: This is an exmaple showing how to convert a Ubuntu phone app to a desktop snap app
+confinement: strict # devmode
+
+apps:
+  rssreader:
+    command: desktop-launch $SNAP/lib/x86_64-linux-gnu/bin/rssreader
+    plugs: [network,network-bind,network-manager,home,unity7,opengl,platform]
+
+parts:
+  rssreader:
+    source: src/
+    plugin: qmake
+    qt-version: qt5
+    # options:
+    #  - QT_DEBUG_PLUGINS=1
+    stage-packages:
+      - libx11-xcb1
+    snap:
+      - -usr/share/doc
+      - -usr/include
+    after: [desktop-ubuntu-app-platform]
+  
+  platform:
+    plugin: dump
+    source: .
+    snap: [ubuntu-app-platform]
+    
+plugs:
+  platform: # plug name, to be used later
+    interface: content
+    content: ubuntu-app-platform1 # content being mounted and the version, currently 1
+    target: ubuntu-app-platform # the mount directory created
+    default-provider: ubuntu-app-platform # default content source snap, currently the only provider too
+
