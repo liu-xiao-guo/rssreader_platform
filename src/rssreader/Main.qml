@@ -39,7 +39,7 @@ MainView {
             PageHeader {
                 id: standardHeader
                 visible: listPage.header === standardHeader
-                title: "图库"
+                title: "Pictures"
                 trailingActionBar.actions: [
                     Action {
                         iconName: "search"

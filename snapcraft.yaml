@@ -23,7 +23,7 @@ parts:
       - -usr/include
     after: [desktop-ubuntu-app-platform]
   
-  platform:
+  plat:
     plugin: dump
     source: .
     snap: [ubuntu-app-platform]
