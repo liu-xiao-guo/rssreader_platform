@@ -14,10 +14,6 @@ parts:
     source: src/
     plugin: qmake
     qt-version: qt5
-    # options:
-    #  - QT_DEBUG_PLUGINS=1
-    stage-packages:
-      - libx11-xcb1
     snap:
       - -usr/share/doc
       - -usr/include
