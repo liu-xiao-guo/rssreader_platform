@@ -1,7 +1,0 @@
-!PrimeState
-dependency_paths: !!set {}
-directories: !!set {ubuntu-app-platform: null}
-files: !!set {ubuntu-app-platform/.keep: null}
-project_options: {}
-properties:
-  snap: [ubuntu-app-platform]

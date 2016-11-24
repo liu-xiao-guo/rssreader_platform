@@ -1,8 +1,0 @@
-!StageState
-directories: !!set {lib: null, lib/x86_64-linux-gnu: null, lib/x86_64-linux-gnu/bin: null,
-  rssreader: null}
-files: !!set {lib/x86_64-linux-gnu/bin/rssreader: null, manifest.json: null, rssreader/rssreader.apparmor: null,
-  rssreader/rssreader.desktop: null, rssreader/rssreader.png: null}
-project_options: {}
-properties:
-  stage: ['*']

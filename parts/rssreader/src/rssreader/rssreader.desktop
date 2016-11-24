@@ -1,8 +1,0 @@
-[Desktop Entry]
-_Name=rssreader
-Exec=rssreader
-Icon=rssreader/rssreader.png
-Terminal=false
-Type=Application
-X-Ubuntu-Touch=true
-
