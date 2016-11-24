@@ -1,0 +1,8 @@
+!PrimeState
+dependency_paths: !!set {}
+directories: !!set {bin: null, etc: null, etc/xdg: null, etc/xdg/qtchooser: null}
+files: !!set {bin/desktop-launch: null, etc/xdg/qtchooser/snappy-qt4.conf: null, etc/xdg/qtchooser/snappy-qt5-app-platform.conf: null,
+  etc/xdg/qtchooser/snappy-qt5.conf: null, flavor-select: null}
+project_options: {}
+properties:
+  snap: ['*']

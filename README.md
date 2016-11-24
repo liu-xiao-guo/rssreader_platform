@@ -1,0 +1,1 @@
+This is a demo snap app for showing how to make use of ubuntu-app-platform to reduce the snap size for Qt-based application. It makes use of the content interface to get the Qt libraries provided the "platform" interface.

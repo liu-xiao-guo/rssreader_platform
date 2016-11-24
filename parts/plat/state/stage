@@ -1,0 +1,34 @@
+!StageState
+directories: !!set {setup: null, setup/gui: null, src: null, src/po: null, src/rssreader: null,
+  src/rssreader/components: null, src/rssreader/components/images: null, src/rssreader/tests: null,
+  src/rssreader/tests/autopilot: null, src/rssreader/tests/autopilot/rssreader: null,
+  src/rssreader/tests/autopilot/rssreader/__pycache__: null, src/rssreader/tests/autopilot/rssreader/tests: null,
+  src/rssreader/tests/autopilot/rssreader/tests/__pycache__: null, src/rssreader/tests/unit: null,
+  ubuntu-app-platform: null}
+files: !!set {setup/gui/rssreader.desktop: null, setup/gui/rssreader.png: null, src/manifest.json.in: null,
+  src/po/rssreader.liu-xiao-guo.pot: null, src/rssreader.pro: null, src/rssreader/Main.qml: null,
+  src/rssreader/components/ArticleContent.qml: null, src/rssreader/components/ArticleGridView.qml: null,
+  src/rssreader/components/ArticleListView.qml: null, src/rssreader/components/GridDelegate.qml: null,
+  src/rssreader/components/ListDelegate.qml: null, src/rssreader/components/PictureModel.qml: null,
+  src/rssreader/components/images/arrow.png: null, src/rssreader/components/images/image1.jpg: null,
+  src/rssreader/components/images/image10.jpg: null, src/rssreader/components/images/image11.jpg: null,
+  src/rssreader/components/images/image12.jpg: null, src/rssreader/components/images/image13.jpg: null,
+  src/rssreader/components/images/image14.jpg: null, src/rssreader/components/images/image15.jpg: null,
+  src/rssreader/components/images/image16.jpg: null, src/rssreader/components/images/image2.jpg: null,
+  src/rssreader/components/images/image3.jpg: null, src/rssreader/components/images/image4.jpg: null,
+  src/rssreader/components/images/image5.jpg: null, src/rssreader/components/images/image6.jpg: null,
+  src/rssreader/components/images/image7.jpg: null, src/rssreader/components/images/image8.jpg: null,
+  src/rssreader/components/images/image9.jpg: null, src/rssreader/components/images/rss.png: null,
+  src/rssreader/main.cpp: null, src/rssreader/rssreader.apparmor: null, src/rssreader/rssreader.desktop: null,
+  src/rssreader/rssreader.png: null, src/rssreader/rssreader.pro: null, src/rssreader/rssreader.qrc: null,
+  src/rssreader/tests/autopilot/rssreader/__init__.py: null, src/rssreader/tests/autopilot/rssreader/__pycache__/__init__.cpython-34.pyc: null,
+  src/rssreader/tests/autopilot/rssreader/__pycache__/__init__.cpython-35.pyc: null,
+  src/rssreader/tests/autopilot/rssreader/tests/__init__.py: null, src/rssreader/tests/autopilot/rssreader/tests/__pycache__/__init__.cpython-34.pyc: null,
+  src/rssreader/tests/autopilot/rssreader/tests/__pycache__/__init__.cpython-35.pyc: null,
+  src/rssreader/tests/autopilot/rssreader/tests/__pycache__/test_main.cpython-34.pyc: null,
+  src/rssreader/tests/autopilot/rssreader/tests/__pycache__/test_main.cpython-35.pyc: null,
+  src/rssreader/tests/autopilot/rssreader/tests/test_main.py: null, src/rssreader/tests/autopilot/run: null,
+  src/rssreader/tests/unit/tst_main.qml: null, ubuntu-app-platform/.keep: null}
+project_options: {}
+properties:
+  stage: ['*']
